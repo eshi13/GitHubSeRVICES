@@ -30,7 +30,7 @@ class SearchViewController: UIViewController {
     //gets called everytime the view appears
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     func configureLogoImageView() {
@@ -84,7 +84,7 @@ class SearchViewController: UIViewController {
             return
         }
         let followerListVc = FollowerListViewController()
-        followerListVc.userName = username
+        followerListVc.username = username
         followerListVc.title = username
         navigationController?.pushViewController(followerListVc, animated: true)
     }

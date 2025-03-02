@@ -9,13 +9,40 @@
 /* Begin PBXBuildFile section */
 		C1DCD3272D6AF12E00F24F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3262D6AF12E00F24F85 /* AppDelegate.swift */; };
 		C1DCD3292D6AF12E00F24F85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3282D6AF12E00F24F85 /* SceneDelegate.swift */; };
-		C1DCD32B2D6AF12E00F24F85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD32A2D6AF12E00F24F85 /* ViewController.swift */; };
-		C1DCD32E2D6AF12E00F24F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD32C2D6AF12E00F24F85 /* Main.storyboard */; };
 		C1DCD3302D6AF12F00F24F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD32F2D6AF12F00F24F85 /* Assets.xcassets */; };
 		C1DCD3332D6AF12F00F24F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1DCD3312D6AF12F00F24F85 /* LaunchScreen.storyboard */; };
 		C1DCD33E2D6AF12F00F24F85 /* GifFollowersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD33D2D6AF12F00F24F85 /* GifFollowersTests.swift */; };
 		C1DCD3482D6AF12F00F24F85 /* GifFollowersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3472D6AF12F00F24F85 /* GifFollowersUITests.swift */; };
 		C1DCD34A2D6AF12F00F24F85 /* GifFollowersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3492D6AF12F00F24F85 /* GifFollowersUITestsLaunchTests.swift */; };
+		C1DCD3572D6AFEEC00F24F85 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3562D6AFEEC00F24F85 /* SearchViewController.swift */; };
+		C1DCD3592D6AFF4200F24F85 /* FavouritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3582D6AFF4200F24F85 /* FavouritesListViewController.swift */; };
+		C1DCD35D2D6B565100F24F85 /* GifButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD35C2D6B565100F24F85 /* GifButton.swift */; };
+		C1DCD35F2D6CA3A100F24F85 /* GifTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD35E2D6CA3A100F24F85 /* GifTextField.swift */; };
+		C1DCD3612D6CE13700F24F85 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3602D6CE13700F24F85 /* FollowerListViewController.swift */; };
+		C1DCD3632D6E377200F24F85 /* GifTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3622D6E377200F24F85 /* GifTitleLabel.swift */; };
+		C1DCD3652D6E394300F24F85 /* GifBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3642D6E394300F24F85 /* GifBodyLabel.swift */; };
+		C1DCD3672D6E3A2A00F24F85 /* GifAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3662D6E3A2A00F24F85 /* GifAlertViewController.swift */; };
+		C1DCD3692D6E40B500F24F85 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3682D6E40B500F24F85 /* UIViewController+Ext.swift */; };
+		C1DCD36F2D70BCD400F24F85 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD36E2D70BCD400F24F85 /* Follower.swift */; };
+		C1DCD3712D70BDA200F24F85 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3702D70BDA200F24F85 /* User.swift */; };
+		C1DCD3762D71BF4900F24F85 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3752D71BF4900F24F85 /* NetworkManager.swift */; };
+		C1DCD3792D71D79600F24F85 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3782D71D79600F24F85 /* ErrorMessage.swift */; };
+		C1DCD37C2D71DE1300F24F85 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD37B2D71DE1200F24F85 /* FollowerCell.swift */; };
+		C1DCD37E2D71DEC600F24F85 /* GifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD37D2D71DEC600F24F85 /* GifImageView.swift */; };
+		C1DCD3802D72294300F24F85 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD37F2D72294300F24F85 /* UIHelper.swift */; };
+		C1DCD3882D73561100F24F85 /* GifEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3872D73561100F24F85 /* GifEmptyStateView.swift */; };
+		C1DCD38A2D7386F700F24F85 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3892D7386F700F24F85 /* UserInfoViewController.swift */; };
+		C1DCD38E2D73915400F24F85 /* GifUserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD38D2D73915400F24F85 /* GifUserInfoHeaderViewController.swift */; };
+		C1DCD3902D7391BF00F24F85 /* GifSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD38F2D7391BF00F24F85 /* GifSecondaryLabel.swift */; };
+		C1DCD3922D73982C00F24F85 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3912D73982C00F24F85 /* Constants.swift */; };
+		C1DCD3942D73A0E400F24F85 /* GifItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3932D73A0E400F24F85 /* GifItemInfoView.swift */; };
+		C1DCD3962D73A6C900F24F85 /* GifItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3952D73A6C900F24F85 /* GifItemInfoViewController.swift */; };
+		C1DCD3982D73A92600F24F85 /* GifRepoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3972D73A92600F24F85 /* GifRepoItemViewController.swift */; };
+		C1DCD39A2D73AAD500F24F85 /* GifFollowerItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3992D73AAD500F24F85 /* GifFollowerItemViewController.swift */; };
+		C1DCD39C2D73ACF500F24F85 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD39B2D73ACF500F24F85 /* Date+Ext.swift */; };
+		C1DCD39E2D73AD1200F24F85 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD39D2D73AD1200F24F85 /* String+Ext.swift */; };
+		C1DCD3A02D74503300F24F85 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD39F2D74503300F24F85 /* PersistenceManager.swift */; };
+		C1DCD3A22D74770F00F24F85 /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD3A12D74770F00F24F85 /* FavouriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +66,6 @@
 		C1DCD3232D6AF12E00F24F85 /* GifFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DCD3262D6AF12E00F24F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1DCD3282D6AF12E00F24F85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1DCD32A2D6AF12E00F24F85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C1DCD32D2D6AF12E00F24F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1DCD32F2D6AF12F00F24F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1DCD3322D6AF12F00F24F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1DCD3342D6AF12F00F24F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,35 @@
 		C1DCD3432D6AF12F00F24F85 /* GifFollowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifFollowersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1DCD3472D6AF12F00F24F85 /* GifFollowersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifFollowersUITests.swift; sourceTree = "<group>"; };
 		C1DCD3492D6AF12F00F24F85 /* GifFollowersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifFollowersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1DCD3562D6AFEEC00F24F85 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C1DCD3582D6AFF4200F24F85 /* FavouritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesListViewController.swift; sourceTree = "<group>"; };
+		C1DCD35C2D6B565100F24F85 /* GifButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifButton.swift; sourceTree = "<group>"; };
+		C1DCD35E2D6CA3A100F24F85 /* GifTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifTextField.swift; sourceTree = "<group>"; };
+		C1DCD3602D6CE13700F24F85 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		C1DCD3622D6E377200F24F85 /* GifTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifTitleLabel.swift; sourceTree = "<group>"; };
+		C1DCD3642D6E394300F24F85 /* GifBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifBodyLabel.swift; sourceTree = "<group>"; };
+		C1DCD3662D6E3A2A00F24F85 /* GifAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifAlertViewController.swift; sourceTree = "<group>"; };
+		C1DCD3682D6E40B500F24F85 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		C1DCD36E2D70BCD400F24F85 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		C1DCD3702D70BDA200F24F85 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C1DCD3752D71BF4900F24F85 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C1DCD3782D71D79600F24F85 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		C1DCD37B2D71DE1200F24F85 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		C1DCD37D2D71DEC600F24F85 /* GifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageView.swift; sourceTree = "<group>"; };
+		C1DCD37F2D72294300F24F85 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		C1DCD3872D73561100F24F85 /* GifEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifEmptyStateView.swift; sourceTree = "<group>"; };
+		C1DCD3892D7386F700F24F85 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		C1DCD38D2D73915400F24F85 /* GifUserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifUserInfoHeaderViewController.swift; sourceTree = "<group>"; };
+		C1DCD38F2D7391BF00F24F85 /* GifSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifSecondaryLabel.swift; sourceTree = "<group>"; };
+		C1DCD3912D73982C00F24F85 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C1DCD3932D73A0E400F24F85 /* GifItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifItemInfoView.swift; sourceTree = "<group>"; };
+		C1DCD3952D73A6C900F24F85 /* GifItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifItemInfoViewController.swift; sourceTree = "<group>"; };
+		C1DCD3972D73A92600F24F85 /* GifRepoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifRepoItemViewController.swift; sourceTree = "<group>"; };
+		C1DCD3992D73AAD500F24F85 /* GifFollowerItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifFollowerItemViewController.swift; sourceTree = "<group>"; };
+		C1DCD39B2D73ACF500F24F85 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		C1DCD39D2D73AD1200F24F85 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		C1DCD39F2D74503300F24F85 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		C1DCD3A12D74770F00F24F85 /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +153,14 @@
 		C1DCD3252D6AF12E00F24F85 /* GifFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				C1DCD3772D71D78200F24F85 /* Utilities */,
+				C1DCD3742D71BF3400F24F85 /* Managers */,
+				C1DCD36D2D70BCBC00F24F85 /* Model */,
+				C1DCD36C2D6E447500F24F85 /* Extensions */,
+				C1DCD36B2D6E440300F24F85 /* CustomsView */,
+				C1DCD36A2D6E43D400F24F85 /* Scenes */,
 				C1DCD3262D6AF12E00F24F85 /* AppDelegate.swift */,
 				C1DCD3282D6AF12E00F24F85 /* SceneDelegate.swift */,
-				C1DCD32A2D6AF12E00F24F85 /* ViewController.swift */,
-				C1DCD32C2D6AF12E00F24F85 /* Main.storyboard */,
 				C1DCD32F2D6AF12F00F24F85 /* Assets.xcassets */,
 				C1DCD3312D6AF12F00F24F85 /* LaunchScreen.storyboard */,
 				C1DCD3342D6AF12F00F24F85 /* Info.plist */,
@@ -125,6 +183,133 @@
 				C1DCD3492D6AF12F00F24F85 /* GifFollowersUITestsLaunchTests.swift */,
 			);
 			path = GifFollowersUITests;
+			sourceTree = "<group>";
+		};
+		C1DCD36A2D6E43D400F24F85 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3602D6CE13700F24F85 /* FollowerListViewController.swift */,
+				C1DCD3582D6AFF4200F24F85 /* FavouritesListViewController.swift */,
+				C1DCD3562D6AFEEC00F24F85 /* SearchViewController.swift */,
+				C1DCD3892D7386F700F24F85 /* UserInfoViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C1DCD36B2D6E440300F24F85 /* CustomsView */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3862D7355E600F24F85 /* Labels */,
+				C1DCD3852D73559700F24F85 /* ViewControllers */,
+				C1DCD3842D73558D00F24F85 /* ImageViews */,
+				C1DCD3832D73557D00F24F85 /* TextField */,
+				C1DCD3822D73557600F24F85 /* Buttons */,
+				C1DCD3812D73557000F24F85 /* Views */,
+				C1DCD37A2D71DDEC00F24F85 /* Cells */,
+			);
+			path = CustomsView;
+			sourceTree = "<group>";
+		};
+		C1DCD36C2D6E447500F24F85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3682D6E40B500F24F85 /* UIViewController+Ext.swift */,
+				C1DCD39B2D73ACF500F24F85 /* Date+Ext.swift */,
+				C1DCD39D2D73AD1200F24F85 /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C1DCD36D2D70BCBC00F24F85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD36E2D70BCD400F24F85 /* Follower.swift */,
+				C1DCD3702D70BDA200F24F85 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1DCD3742D71BF3400F24F85 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3752D71BF4900F24F85 /* NetworkManager.swift */,
+				C1DCD39F2D74503300F24F85 /* PersistenceManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C1DCD3772D71D78200F24F85 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3782D71D79600F24F85 /* ErrorMessage.swift */,
+				C1DCD37F2D72294300F24F85 /* UIHelper.swift */,
+				C1DCD3912D73982C00F24F85 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C1DCD37A2D71DDEC00F24F85 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD37B2D71DE1200F24F85 /* FollowerCell.swift */,
+				C1DCD3A12D74770F00F24F85 /* FavouriteCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C1DCD3812D73557000F24F85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3872D73561100F24F85 /* GifEmptyStateView.swift */,
+				C1DCD3932D73A0E400F24F85 /* GifItemInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1DCD3822D73557600F24F85 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD35C2D6B565100F24F85 /* GifButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		C1DCD3832D73557D00F24F85 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD35E2D6CA3A100F24F85 /* GifTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		C1DCD3842D73558D00F24F85 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD37D2D71DEC600F24F85 /* GifImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		C1DCD3852D73559700F24F85 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3662D6E3A2A00F24F85 /* GifAlertViewController.swift */,
+				C1DCD38D2D73915400F24F85 /* GifUserInfoHeaderViewController.swift */,
+				C1DCD3952D73A6C900F24F85 /* GifItemInfoViewController.swift */,
+				C1DCD3972D73A92600F24F85 /* GifRepoItemViewController.swift */,
+				C1DCD3992D73AAD500F24F85 /* GifFollowerItemViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C1DCD3862D7355E600F24F85 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				C1DCD3622D6E377200F24F85 /* GifTitleLabel.swift */,
+				C1DCD3642D6E394300F24F85 /* GifBodyLabel.swift */,
+				C1DCD38F2D7391BF00F24F85 /* GifSecondaryLabel.swift */,
+			);
+			path = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +418,6 @@
 			files = (
 				C1DCD3332D6AF12F00F24F85 /* LaunchScreen.storyboard in Resources */,
 				C1DCD3302D6AF12F00F24F85 /* Assets.xcassets in Resources */,
-				C1DCD32E2D6AF12E00F24F85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +442,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DCD32B2D6AF12E00F24F85 /* ViewController.swift in Sources */,
+				C1DCD3A22D74770F00F24F85 /* FavouriteCell.swift in Sources */,
+				C1DCD3712D70BDA200F24F85 /* User.swift in Sources */,
+				C1DCD35F2D6CA3A100F24F85 /* GifTextField.swift in Sources */,
+				C1DCD3592D6AFF4200F24F85 /* FavouritesListViewController.swift in Sources */,
+				C1DCD39E2D73AD1200F24F85 /* String+Ext.swift in Sources */,
+				C1DCD3572D6AFEEC00F24F85 /* SearchViewController.swift in Sources */,
+				C1DCD3692D6E40B500F24F85 /* UIViewController+Ext.swift in Sources */,
+				C1DCD3802D72294300F24F85 /* UIHelper.swift in Sources */,
+				C1DCD3922D73982C00F24F85 /* Constants.swift in Sources */,
+				C1DCD3652D6E394300F24F85 /* GifBodyLabel.swift in Sources */,
+				C1DCD3982D73A92600F24F85 /* GifRepoItemViewController.swift in Sources */,
+				C1DCD37E2D71DEC600F24F85 /* GifImageView.swift in Sources */,
+				C1DCD3962D73A6C900F24F85 /* GifItemInfoViewController.swift in Sources */,
+				C1DCD3612D6CE13700F24F85 /* FollowerListViewController.swift in Sources */,
+				C1DCD37C2D71DE1300F24F85 /* FollowerCell.swift in Sources */,
+				C1DCD3792D71D79600F24F85 /* ErrorMessage.swift in Sources */,
+				C1DCD3942D73A0E400F24F85 /* GifItemInfoView.swift in Sources */,
+				C1DCD3882D73561100F24F85 /* GifEmptyStateView.swift in Sources */,
+				C1DCD35D2D6B565100F24F85 /* GifButton.swift in Sources */,
+				C1DCD36F2D70BCD400F24F85 /* Follower.swift in Sources */,
+				C1DCD38E2D73915400F24F85 /* GifUserInfoHeaderViewController.swift in Sources */,
+				C1DCD39C2D73ACF500F24F85 /* Date+Ext.swift in Sources */,
+				C1DCD3A02D74503300F24F85 /* PersistenceManager.swift in Sources */,
 				C1DCD3272D6AF12E00F24F85 /* AppDelegate.swift in Sources */,
+				C1DCD3762D71BF4900F24F85 /* NetworkManager.swift in Sources */,
+				C1DCD3632D6E377200F24F85 /* GifTitleLabel.swift in Sources */,
+				C1DCD3902D7391BF00F24F85 /* GifSecondaryLabel.swift in Sources */,
+				C1DCD38A2D7386F700F24F85 /* UserInfoViewController.swift in Sources */,
+				C1DCD3672D6E3A2A00F24F85 /* GifAlertViewController.swift in Sources */,
+				C1DCD39A2D73AAD500F24F85 /* GifFollowerItemViewController.swift in Sources */,
 				C1DCD3292D6AF12E00F24F85 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +509,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C1DCD32C2D6AF12E00F24F85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1DCD32D2D6AF12E00F24F85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C1DCD3312D6AF12F00F24F85 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,9 +650,9 @@
 				INFOPLIST_FILE = GifFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,9 +677,9 @@
 				INFOPLIST_FILE = GifFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

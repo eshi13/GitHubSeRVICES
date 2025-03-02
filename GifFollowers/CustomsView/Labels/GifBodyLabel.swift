@@ -26,6 +26,7 @@ class GifBodyLabel: UILabel {
     
     private func configure() {
         textColor = .secondaryLabel
+        numberOfLines = 0
         adjustsFontSizeToFitWidth = true
         font = UIFont.preferredFont(forTextStyle: .body)
         minimumScaleFactor = 0.75
